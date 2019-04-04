@@ -1,0 +1,47 @@
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$ git add .
+
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ../Clase 1 HTML/index.html
+        new file:   Vicky.jpg
+        new file:   index.html
+        new file:   ../semana1/git-practice
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Clase 2 HTML/
+
+
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$ git add .
+
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$ git commit -m "Deber1"
+[master 54fb4c1] Deber1
+ 4 files changed, 142 insertions(+)
+ create mode 100644 Clase 1 HTML/index.html
+ create mode 100644 Deberes clase 1 html/Vicky.jpg
+ create mode 100644 Deberes clase 1 html/index.html
+ create mode 160000 semana1/git-practice
+
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 11.17 KiB | 816.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/victoriamunozsisso/miprimerrepositorio.git
+   3aa3198..54fb4c1  master -> master
+
+MFR3@DESKTOP-PG50NK7 MINGW64 ~/Desktop/Programacion/Deberes clase 1 html (master)
+$
