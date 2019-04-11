@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intranet de Pagos Victoria Muñoz</title>
+</head>
+<body>
+    <header>
+        <h1>Incripción</h1>
+        <p>ENVÍANOS TUS DATOS PARA INSCRIPCION A NUESTRA PAGINA</p>
+        <p>Bienvenidos a nuestra tienda, por favor asegurarse de colocar los datos de manera correcta</p>
+        <p>Teléfono: 693-00.18.95</p>
+        <a href="mailto:tiendaonlineshoes@gmail.com">tiendaonlineshoes@gmail.com</a>
+        <a href="https://www.zalando-prive.es/lp/46/maria_shoes_sems/lp.html?gclid=CjwKCAjwy7vlBRACEiwAZvdx9l2PTtv72TIFDLpvMUViDSBxtK1_FEwcvpZbD3HGT6OhtGZdpYr8ChoCTQMQAvD_BwE" target="_blank">TiendaOnlineShoes</a>
+    </header>
+    <main>
+        <div>
+            <form action="url" method="post" enctype="multipart/form-data">
+                <label for="name">Nombre:*</label>
+                <input type="text" name="name" id="name" placeholder="En minúscula, con mayúscula inicial. Por ejemplo: Alejandro, NO alejandro o ALEJANDRO" required>
+                <label for="primer_apellido">Primer Apellido:*</label>
+                <input type="text" name="primer_apellido" id="primer_apellido" placeholder="En minúscula, con mayúscula inicial. Por ejemplo: García, NO garcía o GARCÍA" required>
+                <label for="segundo_apellido">Segundo Apellido:*</label>
+                <input type="text" name="segundo_apellido" id="segundo_apellido" placeholder="En minúscula, con mayúscula inicial. Por ejemplo: Pérez, NO pérez o PÉREZ" required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <label for="fecha_nacimiento">Fecha de Nacimiento:*</label>
+                <input type="date" name="fecha_nacimiento" step="1" min="1900-01-01" max="2001-01-01" value="1991-01-01" required>       
+                <label for="comentario">Comentario:*</label>
+                <textarea id="comentario" name="comentario" placeholder="Comentario adicional" required></textarea>
+                <input type="file" name="archivo">
+                <input type="reset" value="Borrar todo">
+                <button type="submit">Enviar pago</button>
+            </form>
+        </div>
+    </main>
+<footer>
+    <hr />
+    <p>Copyright Victoria Muñoz 2019</p>
+</footer>
+</body>
+</html>
