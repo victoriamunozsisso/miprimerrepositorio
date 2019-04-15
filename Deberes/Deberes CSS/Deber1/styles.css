@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+    width: 940px;
+    border: 2px solid black;
+}
+
+h1 {
+	background-color: #3b3b3b;
+	color: #ddd;
+	padding: 5px;	
+}
+
+h2 {
+	border: 5px solid #ccc;
+	background-color: #DDD;
+	padding-left: 5px;
+	margin: 0 0 02 -15px;
+    font-weight: normal;
+}
+
+h3 {
+    border-top: 1px solid #ccc;
+    background-color: #DDD;
+    padding-left: 5px;
+    margin: 0 0 02 -15px;
+    font-weight: normal; 
+}
+
+#vicky {
+    float: left;
+    border: 5px;
+    background-color: #3b3b3b;
+}
+
+.fondo {
+    background-color: white;
+}
+
+.color {
+    text-decoration:none;
+	color: indigo;
+}
+
