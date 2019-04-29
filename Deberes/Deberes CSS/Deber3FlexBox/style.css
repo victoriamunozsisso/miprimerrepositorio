@@ -170,3 +170,7 @@
       transform: translateY(0);
     }
   }
+
+  h1 {
+      display: none
+  }
