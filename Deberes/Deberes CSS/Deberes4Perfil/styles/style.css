@@ -1,0 +1,74 @@
+.navegacion_superior {
+    color: #58585a;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    justify-content: flex-end
+ }
+ 
+ .titulo_negro {
+    color: #58585a;
+    font-size: 84px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+ }
+ 
+ .titulo_azul {
+    color: #23b8cf;
+    font-size: 84px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+ }
+ 
+ .parrafo1 {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+ }
+ 
+ .parrafo2, .tipodetrabajo {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+ }
+
+ h2{
+     color: #23b8cf;
+     font-size: 26px;
+     font-family:
+ }
+
+ 
+ h3 {
+    color: #58585a;
+    font-family: 'Bodoni MT Black';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+ }
+
+ .boton_hojadetrabajo {
+    width: 135px;
+    height: 32px;
+    padding: 6px 12px;
+    border: 0;
+    background: #f1f2f3;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;   
+ }
+
+ .font_diseñoweb {
+     color: #747478;
+     font-family: 'Space Mono', monospace
+ }
+
+ .navegacion_inferior {
+   color: #58585a;
+   font-size: 13px;
+   font-family: 'Space Mono', monospace;
+ }
+
+ .navegacion_superior {
+     display: flex;
+     justify-content: flex-end;  
+ }
