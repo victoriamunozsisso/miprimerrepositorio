@@ -1,74 +1,464 @@
+html {
+   margin: 0 auto;
+   width: 90%;
+   max-width: 90rem;
+}
+
+.encabezado {
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;  
+}
+
+.logo_alexandro: {
+   float: left;
+}
+
+.letras-mono {
+   font-size: 1rem;
+   font-family: 'Space Mono', monospace;
+}
+
 .navegacion_superior {
     color: #58585a;
-    font-size: 16px;
-    font-family: 'Space Mono', monospace;
-    justify-content: flex-end
- }
+    align-content: center;
+    flex-direction: column;
+    list-style: none;
+    margin:1rem;   
+}
+
+.redes-sociales_superior:hover {
+   list-style: none
+}
  
+.titulos {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+}
+
+.letras-titulo {
+   font-size: 5rem;
+   line-height: 3rem;
+   font-family: 'Abril Fatface', cursive;
+}
+
  .titulo_negro {
     color: #58585a;
-    font-size: 84px;
-    line-height: 60px;
-    font-family: 'Abril Fatface', cursive;
- }
+    margin: 3rem 0 1rem 14rem
+}
+
+ .titulo_negro2 {
+    color: #58585a;
+    margin:0 0 1rem 14rem
+}
  
  .titulo_azul {
     color: #23b8cf;
-    font-size: 84px;
-    line-height: 60px;
-    font-family: 'Abril Fatface', cursive;
- }
- 
+    margin: 0 0 3rem 20rem;
+}
+
+ .parrafos_main {
+    display: flex;
+    align-items: center;
+    margin-left: 20rem;
+    width: 40rem
+}
+
  .parrafo1 {
     color: #333333;
-    font-size: 16px;
-    font-family: 'Space Mono', monospace;
- }
- 
- .parrafo2, .tipodetrabajo {
-    color: #333333;
-    font-size: 15px;
-    font-family: 'Space Mono', monospace;
- }
+}
 
- h2{
+ hr {
+   margin-left: 37rem
+}
+
+ .redes-sociales_superior {
+   margin-left: 34rem
+}
+
+ h2 {
      color: #23b8cf;
-     font-size: 26px;
-     font-family:
- }
+     font-size: 2rem;
+     font-family: 'Bodoni MT Black';
+     font-style: normal; 
+}
 
- 
- h3 {
-    color: #58585a;
-    font-family: 'Bodoni MT Black';
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 400;
- }
+ .bloque-de-trabajo {
+   display: flex;
+   align-items: center;
+   margin: 1rem 0 0 0; 
+   color: #747478;
+}
 
- .boton_hojadetrabajo {
-    width: 135px;
-    height: 32px;
-    padding: 6px 12px;
-    border: 0;
-    background: #f1f2f3;
-    color: #333333;
-    font-size: 14px;
-    font-family: 'Space Mono', monospace;   
- }
-
- .font_diseñoweb {
-     color: #747478;
-     font-family: 'Space Mono', monospace
- }
-
- .navegacion_inferior {
+.titulo3 {
    color: #58585a;
-   font-size: 13px;
-   font-family: 'Space Mono', monospace;
- }
+   font-family: 'Bodoni MT Black';
+   font-size: 3.5rem;
+   font-style: normal; 
+   font-weight: 400; 
+   margin: 0;
+}
 
- .navegacion_superior {
-     display: flex;
-     justify-content: flex-end;  
- }
+.parrafo2 {
+   font-size: 0.9rem
+}
+
+.boton_hojadetrabajo {
+   width: 8rem;
+   height: 2rem;
+   padding: .35rem .35rem;
+   border: 0;
+   background: #f1f2f3;
+   color: #333333;
+   font-weight: bold;
+   font-size: 0.8rem
+}
+
+.compartir_en{
+   text-align: center
+}
+
+ .piedepagina {
+   color: #58585a;
+   font-size: 0.8rem
+}
+
+li {
+   list-style-type: none;
+   display: inline;
+   padding-right: 0.31rem; 
+}
+
+a:link {
+   text-decoration: none
+}
+
+.parrafos_piedepagina {
+   display: flex;
+   align-items: center;
+   width: 53rem;
+   font-size: 0.7rem
+}
+
+.pie_derecho {
+   margin-left: 10rem;
+}
+
+.linea-inferior {
+   width: 50rem;
+   margin-left: 0;
+   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width 1020px) {
+   html {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 90rem;
+   }
+   
+   .encabezado {
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;  
+   }
+   
+   .logo_alexandro {
+      float: left;
+   }
+   
+   .letras-mono {
+      font-size: 1rem;
+      font-family: 'Space Mono', monospace;
+   }
+   
+   .navegacion_superior {
+       color: #58585a;
+       align-content: center;
+       flex-direction: column;
+       list-style: none;
+       margin:1rem;   
+   }
+   
+   .redes-sociales_superior {
+      list-style: none
+   }
+    
+   .titulos {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+   }
+   
+   .letras-titulo {
+      font-size: 5rem;
+      line-height: 3rem;
+      font-family: 'Abril Fatface', cursive;
+   }
+   
+    .titulo_negro {
+       color: #58585a;
+       margin: 3rem 0 1rem 14rem
+   }
+   
+    .titulo_negro2 {
+       color: #58585a;
+       margin:0 0 1rem 14rem
+   }
+    
+    .titulo_azul {
+       color: #23b8cf;
+       margin: 0 0 3rem 20rem;
+   }
+   
+    .parrafos_main {
+       display: flex;
+       align-items: center;
+       margin-left: 20rem;
+       width: 40rem
+   }
+   
+    .parrafo1 {
+       color: #333333;
+   }
+   
+    hr {
+      margin-left: 37rem
+   }
+   
+    .redes-sociales_superior {
+      margin-left: 34rem
+   }
+   
+    h2 {
+        color: #23b8cf;
+        font-size: 2rem;
+        font-family: 'Bodoni MT Black';
+        font-style: normal; 
+   }
+   
+    .bloque-de-trabajo {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0 0 0; 
+      color: #747478;
+   }
+   
+   .titulo3 {
+      color: #58585a;
+      font-family: 'Bodoni MT Black';
+      font-size: 3.5rem;
+      font-style: normal; 
+      font-weight: 400; 
+      margin: 0;
+   }
+   
+   .parrafo2 {
+      font-size: 0.9rem
+   }
+   
+   .boton_hojadetrabajo {
+      width: 8rem;
+      height: 2rem;
+      padding: .35rem .35rem;
+      border: 0;
+      background: #f1f2f3;
+      color: #333333;
+      font-weight: bold;
+      font-size: 0.8rem
+   }
+   
+   .compartir_en{
+      text-align: center
+   }
+   
+    .piedepagina {
+      color: #58585a;
+      font-size: 0.8rem
+   }
+   
+   li {
+      list-style-type: none;
+      display: inline;
+      padding-right: 0.31rem; 
+   }
+   
+   a:link {
+      text-decoration: none
+   }
+   
+   .parrafos_piedepagina {
+      display: flex;
+      align-items: center;
+      width: 53rem;
+      font-size: 0.7rem
+   }
+   
+   .pie_derecho {
+      margin-left: 10rem;
+   }
+   
+   .linea-inferior {
+      width: 50rem;
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+   }
+}
+@media screen and (max-width 780px) {
+   html {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 90rem;
+   }
+   
+   .encabezado {
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;  
+   }
+   
+   .logo_alexandro {
+      float: left;
+   }
+   
+   .letras-mono {
+      font-size: 1rem;
+      font-family: 'Space Mono', monospace;
+   }
+   
+   .navegacion_superior {
+       color: #58585a;
+       align-content: center;
+       flex-direction: column;
+       list-style: none;
+       margin:1rem;   
+   }
+   
+   .redes-sociales_superior {
+      list-style: none
+   }
+    
+   .titulos {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+   }
+   
+   .letras-titulo {
+      font-size: 5rem;
+      line-height: 3rem;
+      font-family: 'Abril Fatface', cursive;
+   }
+   
+    .titulo_negro {
+       color: #58585a;
+       margin: 3rem 0 1rem 14rem
+   }
+   
+    .titulo_negro2 {
+       color: #58585a;
+       margin:0 0 1rem 14rem
+   }
+    
+    .titulo_azul {
+       color: #23b8cf;
+       margin: 0 0 3rem 20rem;
+   }
+   
+    .parrafos_main {
+       display: flex;
+       align-items: center;
+       margin-left: 20rem;
+       width: 40rem
+   }
+   
+    .parrafo1 {
+       color: #333333;
+   }
+   
+    hr {
+      margin-left: 37rem
+   }
+   
+    .redes-sociales_superior {
+      margin-left: 34rem
+   }
+   
+    h2 {
+        color: #23b8cf;
+        font-size: 2rem;
+        font-family: 'Bodoni MT Black';
+        font-style: normal; 
+   }
+   
+    .bloque-de-trabajo {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0 0 0; 
+      color: #747478;
+   }
+   
+   .titulo3 {
+      color: #58585a;
+      font-family: 'Bodoni MT Black';
+      font-size: 3.5rem;
+      font-style: normal; 
+      font-weight: 400; 
+      margin: 0;
+   }
+   
+   .parrafo2 {
+      font-size: 0.9rem
+   }
+   
+   .boton_hojadetrabajo {
+      width: 8rem;
+      height: 2rem;
+      padding: .35rem .35rem;
+      border: 0;
+      background: #f1f2f3;
+      color: #333333;
+      font-weight: bold;
+      font-size: 0.8rem
+   }
+   
+   .compartir_en{
+      text-align: center
+   }
+   
+    .piedepagina {
+      color: #58585a;
+      font-size: 0.8rem
+   }
+   
+   li {
+      list-style-type: none;
+      display: inline;
+      padding-right: 0.31rem; 
+   }
+   
+   a:link {
+      text-decoration: none
+   }
+   
+   .parrafos_piedepagina {
+      display: flex;
+      align-items: center;
+      width: 53rem;
+      font-size: 0.7rem
+   }
+
+   .pie_derecho {
+      margin-left: 10rem;
+   }
+   
+   .linea-inferior {
+      width: 50rem;
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+   }
+}
