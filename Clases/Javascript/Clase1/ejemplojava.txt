@@ -1,0 +1,3 @@
+alert("Esto es un msj de Javascript");
+var pregunta="¿Cómo te llamas?";
+var respuesta=prompt(pregunta);
